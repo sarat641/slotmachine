@@ -1,0 +1,6 @@
+CREATE TABLE fileuploads (
+  id INTEGER  IDENTITY PRIMARY KEY,
+  fileName VARCHAR(45) NOT NULL,
+  price INTEGER  NOT NULL,
+  filelocation VARCHAR(100) NOT NULL
+);
